@@ -16,21 +16,18 @@ El objetivo principal es brindar una mejor visibilidad del troubleshooting bási
 - Respuestas rápidas a preguntas frecuentes.
 - Guía paso a paso para validaciones iniciales.
 - Base de conocimiento interna.
-- Mejora continua mediante actualización de casos comunes.
-
+  
 ## Usuarios Objetivo
 - TSE (Technical Support Engineers)
 - Equipo de soporte interno
-- Supervisores y líderes técnicos
 
 ## Beneficios
 - Mayor consistencia en la atención.
-- Menor dependencia de consultas repetitivas.
-- Mejor documentación interna.
-- Escalación más eficiente de incidentes.
+- Menor dependencia de consultas repetitivas de otros compañeros más experimentados.
+- Información basada de documentación interna de casos atendidos.
 
 ## Estado del Proyecto
 En desarrollo / Uso interno.
 
 ## Autor
-Equipo de Soporte
+Kevin Raxcacó TSE
