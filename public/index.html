@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AtomChat Soporte AI</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="bot-avatar">&#129302;</div>
+    <div class="bot-info">
+      <h1>AtomChat Soporte AI</h1>
+      <p>Asistente de conocimiento interno</p>
+    </div>
+    <div class="status">
+      <div class="dot"></div>
+      <span>En línea</span>
+    </div>
+    <span class="kb-count" id="kb-count">260 casos</span>
+  </header>
+
+  <!-- Chat messages -->
+  <main class="messages" id="msgs"></main>
+
+  <!-- Input area -->
+  <footer class="input-area">
+    <div class="input-row">
+      <textarea
+        id="inp"
+        placeholder="Describe el problema del cliente..."
+        rows="1"
+        aria-label="Mensaje"
+      ></textarea>
+      <button class="send" id="sbtn" aria-label="Enviar">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
+        </svg>
+      </button>
+    </div>
+    <p class="hint">
+      Powered by Claude &middot; Escribe con tus propias palabras &middot; Enter para enviar
+    </p>
+  </footer>
+
+  <!-- KB data embedded as base64 to avoid JS escaping issues -->
+  <script id="kbdata" type="text/plain" src="js/kb-data.js"></script>
+
+  <script src="js/kb-data.js"></script>
+  <script src="js/renderer.js"></script>
+  <script src="js/chat.js"></script>
+
+</body>
+</html>
