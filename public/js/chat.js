@@ -1,6 +1,3 @@
-
-Copiar
-
 /**
  * chat.js
  */
